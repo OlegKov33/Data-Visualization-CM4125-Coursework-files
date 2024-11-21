@@ -4,7 +4,7 @@ In this reposotory you will be able to see the links to all the resources I have
 
 Here are the links to the other resources I have used: 
 
-[GitHub](https://github.com/OlegKov33/Data-Visualization-CM4125-Coursework-file)
+[GitHub](https://github.com/OlegKov33/Data-Visualization-CM4125-Coursework-files)
 
 [Colab](https://colab.research.google.com/github/OlegKov33/Data-Visualization-CM4125-Coursework-files/blob/main/Data_Viz_COurSwork.ipynb) 
 
