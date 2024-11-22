@@ -1,0 +1,2905 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0705.0334                               -->
+<workbook original-version='18.1' source-build='2024.1.5 (20241.24.0705.0334)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneFriendlyName />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='braille_blind_persons_1000_dataset' inline='true' name='federated.1anpuds1pr4k9t17x431g1n9zn23' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='braille_blind_persons_1000_dataset' name='textscan.0rc99xb0qwg4cr1g4i4wb0v1gwu8'>
+            <connection class='textscan' directory='H:/Year 4/CM4125 - Data Viz/Original files' filename='braille_blind_persons_1000_dataset.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='Combined_Dataset' name='textscan.0gmou4o0c1gt4d1am6juz0zuolci'>
+            <connection class='textscan' directory='//wfs-csdm-h.rgu.ac.uk/csdm-H/Students/21/2106398/Year 4/CM4125 - Data Viz/Modified files' filename='Combined_Dataset.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0rc99xb0qwg4cr1g4i4wb0v1gwu8' name='braille_blind_persons_1000_dataset.csv' table='[braille_blind_persons_1000_dataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='Person_ID' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='string' name='Gender' ordinal='2' />
+            <column datatype='string' name='Blindness_Type' ordinal='3' />
+            <column datatype='string' name='Braille_Proficiency_Level' ordinal='4' />
+            <column datatype='string' name='Braille_Letter' ordinal='5' />
+            <column datatype='string' name='English_Letter' ordinal='6' />
+            <column datatype='integer' name='Years_of_Using_Braille' ordinal='7' />
+            <column datatype='string' name='Assistive_Technology_Used' ordinal='8' />
+            <column datatype='string' name='Preferred_Reading_Medium' ordinal='9' />
+            <column datatype='integer' name='Daily_Braille_Usage' ordinal='10' />
+            <column datatype='string' name='Access_to_Educational_Resources' ordinal='11' />
+            <column datatype='string' name='Occupation' ordinal='12' />
+            <column datatype='string' name='Country' ordinal='13' />
+            <column datatype='string' name='Challenges_Faced' ordinal='14' />
+            <column datatype='integer' name='Satisfaction_With_Braille_Tools' ordinal='15' />
+            <column datatype='string' name='Braille_Learning_Resources' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0rc99xb0qwg4cr1g4i4wb0v1gwu8' name='braille_blind_persons_1000_dataset.csv' table='[braille_blind_persons_1000_dataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='Person_ID' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='string' name='Gender' ordinal='2' />
+            <column datatype='string' name='Blindness_Type' ordinal='3' />
+            <column datatype='string' name='Braille_Proficiency_Level' ordinal='4' />
+            <column datatype='string' name='Braille_Letter' ordinal='5' />
+            <column datatype='string' name='English_Letter' ordinal='6' />
+            <column datatype='integer' name='Years_of_Using_Braille' ordinal='7' />
+            <column datatype='string' name='Assistive_Technology_Used' ordinal='8' />
+            <column datatype='string' name='Preferred_Reading_Medium' ordinal='9' />
+            <column datatype='integer' name='Daily_Braille_Usage' ordinal='10' />
+            <column datatype='string' name='Access_to_Educational_Resources' ordinal='11' />
+            <column datatype='string' name='Occupation' ordinal='12' />
+            <column datatype='string' name='Country' ordinal='13' />
+            <column datatype='string' name='Challenges_Faced' ordinal='14' />
+            <column datatype='integer' name='Satisfaction_With_Braille_Tools' ordinal='15' />
+            <column datatype='string' name='Braille_Learning_Resources' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[braille_blind_persons_1000_dataset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Person_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Person_ID]</local-name>
+            <parent-name>[braille_blind_persons_1000_dataset.csv]</parent-name>
+            <remote-alias>Person_ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[braille_blind_persons_1000_dataset.csv_A8011A1112BC459DA2607593965572BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[braille_blind_persons_1000_dataset.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[braille_blind_persons_1000_dataset.csv_A8011A1112BC459DA2607593965572BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[braille_blind_persons_1000_dataset.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[braille_blind_persons_1000_dataset.csv_A8011A1112BC459DA2607593965572BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Blindness_Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Blindness_Type]</local-name>
+            <parent-name>[braille_blind_persons_1000_dataset.csv]</parent-name>
+            <remote-alias>Blindness_Type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[braille_blind_persons_1000_dataset.csv_A8011A1112BC459DA2607593965572BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Braille_Proficiency_Level</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Braille_Proficiency_Level]</local-name>
+            <parent-name>[braille_blind_persons_1000_dataset.csv]</parent-name>
+            <remote-alias>Braille_Proficiency_Level</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[braille_blind_persons_1000_dataset.csv_A8011A1112BC459DA2607593965572BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Braille_Letter</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Braille_Letter]</local-name>
+            <parent-name>[braille_blind_persons_1000_dataset.csv]</parent-name>
+            <remote-alias>Braille_Letter</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[braille_blind_persons_1000_dataset.csv_A8011A1112BC459DA2607593965572BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>English_Letter</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[English_Letter]</local-name>
+            <parent-name>[braille_blind_persons_1000_dataset.csv]</parent-name>
+            <remote-alias>English_Letter</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[braille_blind_persons_1000_dataset.csv_A8011A1112BC459DA2607593965572BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Years_of_Using_Braille</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Years_of_Using_Braille]</local-name>
+            <parent-name>[braille_blind_persons_1000_dataset.csv]</parent-name>
+            <remote-alias>Years_of_Using_Braille</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[braille_blind_persons_1000_dataset.csv_A8011A1112BC459DA2607593965572BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Assistive_Technology_Used</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Assistive_Technology_Used]</local-name>
+            <parent-name>[braille_blind_persons_1000_dataset.csv]</parent-name>
+            <remote-alias>Assistive_Technology_Used</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[braille_blind_persons_1000_dataset.csv_A8011A1112BC459DA2607593965572BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Preferred_Reading_Medium</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Preferred_Reading_Medium]</local-name>
+            <parent-name>[braille_blind_persons_1000_dataset.csv]</parent-name>
+            <remote-alias>Preferred_Reading_Medium</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[braille_blind_persons_1000_dataset.csv_A8011A1112BC459DA2607593965572BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Daily_Braille_Usage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Daily_Braille_Usage]</local-name>
+            <parent-name>[braille_blind_persons_1000_dataset.csv]</parent-name>
+            <remote-alias>Daily_Braille_Usage</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[braille_blind_persons_1000_dataset.csv_A8011A1112BC459DA2607593965572BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Access_to_Educational_Resources</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Access_to_Educational_Resources]</local-name>
+            <parent-name>[braille_blind_persons_1000_dataset.csv]</parent-name>
+            <remote-alias>Access_to_Educational_Resources</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[braille_blind_persons_1000_dataset.csv_A8011A1112BC459DA2607593965572BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Occupation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Occupation]</local-name>
+            <parent-name>[braille_blind_persons_1000_dataset.csv]</parent-name>
+            <remote-alias>Occupation</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[braille_blind_persons_1000_dataset.csv_A8011A1112BC459DA2607593965572BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[braille_blind_persons_1000_dataset.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[braille_blind_persons_1000_dataset.csv_A8011A1112BC459DA2607593965572BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Challenges_Faced</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Challenges_Faced]</local-name>
+            <parent-name>[braille_blind_persons_1000_dataset.csv]</parent-name>
+            <remote-alias>Challenges_Faced</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[braille_blind_persons_1000_dataset.csv_A8011A1112BC459DA2607593965572BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Satisfaction_With_Braille_Tools</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Satisfaction_With_Braille_Tools]</local-name>
+            <parent-name>[braille_blind_persons_1000_dataset.csv]</parent-name>
+            <remote-alias>Satisfaction_With_Braille_Tools</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[braille_blind_persons_1000_dataset.csv_A8011A1112BC459DA2607593965572BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Braille_Learning_Resources</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Braille_Learning_Resources]</local-name>
+            <parent-name>[braille_blind_persons_1000_dataset.csv]</parent-name>
+            <remote-alias>Braille_Learning_Resources</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[braille_blind_persons_1000_dataset.csv_A8011A1112BC459DA2607593965572BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Access to Educational Resources' datatype='string' name='[Access_to_Educational_Resources]' role='dimension' type='nominal' />
+      <column caption='Assistive Technology Used' datatype='string' name='[Assistive_Technology_Used]' role='dimension' type='nominal' />
+      <column caption='Blindness Type' datatype='string' name='[Blindness_Type]' role='dimension' type='nominal' />
+      <column caption='Braille Learning Resources' datatype='string' name='[Braille_Learning_Resources]' role='dimension' type='nominal' />
+      <column caption='Braille Letter' datatype='string' hidden='true' name='[Braille_Letter]' role='dimension' type='nominal' />
+      <column caption='Braille Proficiency Level' datatype='string' name='[Braille_Proficiency_Level]' role='dimension' type='nominal' />
+      <column datatype='real' default-format='p0.00%' name='[Calculation1]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([Gender]) / TOTAL(COUNT([Gender]))'>
+          <table-calc ordering-field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Gender:nk]' ordering-type='Field' />
+        </calculation>
+      </column>
+      <column datatype='real' default-format='p0.00%' name='[Calculation2]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([Gender]) / TOTAL(COUNT([Gender]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Challenges Faced' datatype='string' name='[Challenges_Faced]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Daily Braille Usage' datatype='integer' name='[Daily_Braille_Usage]' role='measure' type='quantitative' />
+      <column caption='English Letter' datatype='string' hidden='true' name='[English_Letter]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+      <column caption='Person ID' datatype='integer' hidden='true' name='[Person_ID]' role='dimension' type='ordinal' />
+      <column caption='Preferred Reading Medium' datatype='string' name='[Preferred_Reading_Medium]' role='dimension' type='nominal' />
+      <column caption='Satisfaction With Braille Tools' datatype='integer' name='[Satisfaction_With_Braille_Tools]' role='measure' type='quantitative' />
+      <column caption='Years of Using Braille' datatype='integer' name='[Years_of_Using_Braille]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='braille_blind_persons_1000_dataset.csv' datatype='table' name='[__tableau_internal_object_id__].[braille_blind_persons_1000_dataset.csv_A8011A1112BC459DA2607593965572BF]' role='measure' type='quantitative' />
+      <column-instance column='[Access_to_Educational_Resources]' derivation='None' name='[none:Access_to_Educational_Resources:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Assistive_Technology_Used]' derivation='None' name='[none:Assistive_Technology_Used:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Blindness_Type]' derivation='None' name='[none:Blindness_Type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Blindness_Type:nk]' type='palette'>
+            <map to='#b07aa1'>
+              <bucket>&quot;Congenital&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Acquired&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Country:nk]' type='palette'>
+            <map to='#00007f'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#5500ff'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#aaaaff'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;USA&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;UK&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#fff09d'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Assistive_Technology_Used:nk]' type='palette'>
+            <map to='#8141c2'>
+              <bucket>&quot;None&quot;</bucket>
+            </map>
+            <map to='#953195'>
+              <bucket>&quot;Talking devices&quot;</bucket>
+            </map>
+            <map to='#f7c50f'>
+              <bucket>&quot;Braille display&quot;</bucket>
+            </map>
+            <map to='#ff7b1c'>
+              <bucket>&quot;Screen reader&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Access_to_Educational_Resources:nk]' type='palette'>
+            <map to='#b07aa1'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='braille_blind_persons_1000_dataset.csv' id='braille_blind_persons_1000_dataset.csv_A8011A1112BC459DA2607593965572BF'>
+            <properties context=''>
+              <relation connection='textscan.0rc99xb0qwg4cr1g4i4wb0v1gwu8' name='braille_blind_persons_1000_dataset.csv' table='[braille_blind_persons_1000_dataset#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='integer' name='Person_ID' ordinal='0' />
+                  <column datatype='integer' name='Age' ordinal='1' />
+                  <column datatype='string' name='Gender' ordinal='2' />
+                  <column datatype='string' name='Blindness_Type' ordinal='3' />
+                  <column datatype='string' name='Braille_Proficiency_Level' ordinal='4' />
+                  <column datatype='string' name='Braille_Letter' ordinal='5' />
+                  <column datatype='string' name='English_Letter' ordinal='6' />
+                  <column datatype='integer' name='Years_of_Using_Braille' ordinal='7' />
+                  <column datatype='string' name='Assistive_Technology_Used' ordinal='8' />
+                  <column datatype='string' name='Preferred_Reading_Medium' ordinal='9' />
+                  <column datatype='integer' name='Daily_Braille_Usage' ordinal='10' />
+                  <column datatype='string' name='Access_to_Educational_Resources' ordinal='11' />
+                  <column datatype='string' name='Occupation' ordinal='12' />
+                  <column datatype='string' name='Country' ordinal='13' />
+                  <column datatype='string' name='Challenges_Faced' ordinal='14' />
+                  <column datatype='integer' name='Satisfaction_With_Braille_Tools' ordinal='15' />
+                  <column datatype='string' name='Braille_Learning_Resources' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Combined_Dataset' inline='true' name='federated.1asun9f1e7azhq1bd24kk1mx2mng' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Combined_Dataset' name='textscan.173x4ms0g4zsui1gpaqbk1cmrcp5'>
+            <connection class='textscan' directory='//wfs-csdm-h.rgu.ac.uk/csdm-H/Students/21/2106398/Year 4/CM4125 - Data Viz/Modified files' filename='Combined_Dataset.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.173x4ms0g4zsui1gpaqbk1cmrcp5' name='Combined_Dataset.csv' table='[Combined_Dataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='Continent' ordinal='0' />
+            <column datatype='real' name='Avg_Doctors_per_Thousand_People' ordinal='1' />
+            <column datatype='real' name='Max_Doctors_per_Thousand_People' ordinal='2' />
+            <column datatype='real' name='Max_Trichoma_Cases' ordinal='3' />
+            <column datatype='real' name='Avg_Trichoma_Cases' ordinal='4' />
+            <column datatype='real' name='Acquired_Blindness' ordinal='5' />
+            <column datatype='real' name='Initial_Blindness' ordinal='6' />
+            <column datatype='real' name='Sum_of_Blindnesses' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.173x4ms0g4zsui1gpaqbk1cmrcp5' name='Combined_Dataset.csv' table='[Combined_Dataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='Continent' ordinal='0' />
+            <column datatype='real' name='Avg_Doctors_per_Thousand_People' ordinal='1' />
+            <column datatype='real' name='Max_Doctors_per_Thousand_People' ordinal='2' />
+            <column datatype='real' name='Max_Trichoma_Cases' ordinal='3' />
+            <column datatype='real' name='Avg_Trichoma_Cases' ordinal='4' />
+            <column datatype='real' name='Acquired_Blindness' ordinal='5' />
+            <column datatype='real' name='Initial_Blindness' ordinal='6' />
+            <column datatype='real' name='Sum_of_Blindnesses' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Combined_Dataset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Continent</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Continent]</local-name>
+            <parent-name>[Combined_Dataset.csv]</parent-name>
+            <remote-alias>Continent</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Combined_Dataset.csv_C3174560315E43E9BA222DCE0B5A92B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Doctors_per_Thousand_People</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Doctors_per_Thousand_People]</local-name>
+            <parent-name>[Combined_Dataset.csv]</parent-name>
+            <remote-alias>Avg_Doctors_per_Thousand_People</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Combined_Dataset.csv_C3174560315E43E9BA222DCE0B5A92B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Max_Doctors_per_Thousand_People</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Max_Doctors_per_Thousand_People]</local-name>
+            <parent-name>[Combined_Dataset.csv]</parent-name>
+            <remote-alias>Max_Doctors_per_Thousand_People</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Combined_Dataset.csv_C3174560315E43E9BA222DCE0B5A92B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Max_Trichoma_Cases</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Max_Trichoma_Cases]</local-name>
+            <parent-name>[Combined_Dataset.csv]</parent-name>
+            <remote-alias>Max_Trichoma_Cases</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Combined_Dataset.csv_C3174560315E43E9BA222DCE0B5A92B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Trichoma_Cases</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Trichoma_Cases]</local-name>
+            <parent-name>[Combined_Dataset.csv]</parent-name>
+            <remote-alias>Avg_Trichoma_Cases</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Combined_Dataset.csv_C3174560315E43E9BA222DCE0B5A92B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Acquired_Blindness</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Acquired_Blindness]</local-name>
+            <parent-name>[Combined_Dataset.csv]</parent-name>
+            <remote-alias>Acquired_Blindness</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Combined_Dataset.csv_C3174560315E43E9BA222DCE0B5A92B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Initial_Blindness</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Initial_Blindness]</local-name>
+            <parent-name>[Combined_Dataset.csv]</parent-name>
+            <remote-alias>Initial_Blindness</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Combined_Dataset.csv_C3174560315E43E9BA222DCE0B5A92B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum_of_Blindnesses</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sum_of_Blindnesses]</local-name>
+            <parent-name>[Combined_Dataset.csv]</parent-name>
+            <remote-alias>Sum_of_Blindnesses</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Combined_Dataset.csv_C3174560315E43E9BA222DCE0B5A92B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Acquired Blindness' datatype='real' name='[Acquired_Blindness]' role='measure' type='quantitative' />
+      <column caption='Avg Doctors per Thousand People' datatype='real' name='[Avg_Doctors_per_Thousand_People]' role='measure' type='quantitative' />
+      <column caption='Avg Trichoma Cases' datatype='real' name='[Avg_Trichoma_Cases]' role='measure' type='quantitative' />
+      <column caption='Initial Blindness' datatype='real' name='[Initial_Blindness]' role='measure' type='quantitative' />
+      <column caption='Max Doctors per Thousand People' datatype='real' name='[Max_Doctors_per_Thousand_People]' role='measure' type='quantitative' />
+      <column caption='Max Trichoma Cases' datatype='real' name='[Max_Trichoma_Cases]' role='measure' type='quantitative' />
+      <column caption='Sum of Blindnesses' datatype='real' name='[Sum_of_Blindnesses]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Combined_Dataset.csv' datatype='table' name='[__tableau_internal_object_id__].[Combined_Dataset.csv_C3174560315E43E9BA222DCE0B5A92B3]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Combined_Dataset.csv' id='Combined_Dataset.csv_C3174560315E43E9BA222DCE0B5A92B3'>
+            <properties context=''>
+              <relation connection='textscan.173x4ms0g4zsui1gpaqbk1cmrcp5' name='Combined_Dataset.csv' table='[Combined_Dataset#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='Continent' ordinal='0' />
+                  <column datatype='real' name='Avg_Doctors_per_Thousand_People' ordinal='1' />
+                  <column datatype='real' name='Max_Doctors_per_Thousand_People' ordinal='2' />
+                  <column datatype='real' name='Max_Trichoma_Cases' ordinal='3' />
+                  <column datatype='real' name='Avg_Trichoma_Cases' ordinal='4' />
+                  <column datatype='real' name='Acquired_Blindness' ordinal='5' />
+                  <column datatype='real' name='Initial_Blindness' ordinal='6' />
+                  <column datatype='real' name='Sum_of_Blindnesses' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource inline='true' name='Clipboard_20241118T132832' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Clipboard_20241118T132832' name='Clipboard_20241118T132832leaf'>
+            <connection class='textscan' directory='//wfs-csdm-h.rgu.ac.uk/csdm-H/Students/21/2106398/My Tableau Repository/Data sources' filename='Clipboard_20241118T132832.txt' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='Clipboard_20241118T132832leaf' name='Clipboard_20241118T132832#txt' table='[Clipboard_20241118T132832#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator='&#9;'>
+            <column datatype='string' name='Assistive Technology Used' ordinal='0' />
+            <column datatype='integer' name='Count of Access to Educational Resources' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='Clipboard_20241118T132832leaf' name='Clipboard_20241118T132832#txt' table='[Clipboard_20241118T132832#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator='&#9;'>
+            <column datatype='string' name='Assistive Technology Used' ordinal='0' />
+            <column datatype='integer' name='Count of Access to Educational Resources' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Clipboard_20241118T132832#txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;\\t&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Assistive Technology Used</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Assistive Technology Used]</local-name>
+            <parent-name>[Clipboard_20241118T132832#txt]</parent-name>
+            <remote-alias>Assistive Technology Used</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20241118T132832]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Count of Access to Educational Resources</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Count of Access to Educational Resources]</local-name>
+            <parent-name>[Clipboard_20241118T132832#txt]</parent-name>
+            <remote-alias>Count of Access to Educational Resources</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20241118T132832]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Assistive Technology Used]' role='dimension' type='nominal' />
+      <column datatype='real' default-format='p0.00%' name='[Calculation1]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Count of Access to Educational Resources]) / TOTAL(SUM([Count of Access to Educational Resources]))'>
+          <table-calc ordering-field='[Clipboard_20241118T132832].[none:Assistive Technology Used:nk]' ordering-type='Field' />
+        </calculation>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Clipboard_20241118T132832' datatype='table' name='[__tableau_internal_object_id__].[Clipboard_20241118T132832]' role='measure' type='quantitative' />
+      <column-instance column='[Assistive Technology Used]' derivation='None' name='[none:Assistive Technology Used:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Clipboard_20241118T132832' id='Clipboard_20241118T132832'>
+            <properties context=''>
+              <relation connection='Clipboard_20241118T132832leaf' name='Clipboard_20241118T132832#txt' table='[Clipboard_20241118T132832#txt]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator='&#9;'>
+                  <column datatype='string' name='Assistive Technology Used' ordinal='0' />
+                  <column datatype='integer' name='Count of Access to Educational Resources' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource inline='true' name='Clipboard_20241118T132221' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Clipboard_20241118T132221' name='Clipboard_20241118T132221leaf'>
+            <connection class='textscan' directory='//wfs-csdm-h.rgu.ac.uk/csdm-H/Students/21/2106398/My Tableau Repository/Data sources' filename='Clipboard_20241118T132221.txt' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='Clipboard_20241118T132221leaf' name='Clipboard_20241118T132221#txt' table='[Clipboard_20241118T132221#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator='&#9;'>
+            <column datatype='string' name='Blindness Type' ordinal='0' />
+            <column datatype='string' name='Gender' ordinal='1' />
+            <column datatype='integer' name='Count of Access to Educational Resources' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='Clipboard_20241118T132221leaf' name='Clipboard_20241118T132221#txt' table='[Clipboard_20241118T132221#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator='&#9;'>
+            <column datatype='string' name='Blindness Type' ordinal='0' />
+            <column datatype='string' name='Gender' ordinal='1' />
+            <column datatype='integer' name='Count of Access to Educational Resources' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Clipboard_20241118T132221#txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;\\t&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Blindness Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Blindness Type]</local-name>
+            <parent-name>[Clipboard_20241118T132221#txt]</parent-name>
+            <remote-alias>Blindness Type</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20241118T132221]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Clipboard_20241118T132221#txt]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20241118T132221]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Count of Access to Educational Resources</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Count of Access to Educational Resources]</local-name>
+            <parent-name>[Clipboard_20241118T132221#txt]</parent-name>
+            <remote-alias>Count of Access to Educational Resources</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20241118T132221]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Clipboard_20241118T132221' datatype='table' name='[__tableau_internal_object_id__].[Clipboard_20241118T132221]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Clipboard_20241118T132221' id='Clipboard_20241118T132221'>
+            <properties context=''>
+              <relation connection='Clipboard_20241118T132221leaf' name='Clipboard_20241118T132221#txt' table='[Clipboard_20241118T132221#txt]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator='&#9;'>
+                  <column datatype='string' name='Blindness Type' ordinal='0' />
+                  <column datatype='string' name='Gender' ordinal='1' />
+                  <column datatype='integer' name='Count of Access to Educational Resources' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_4117367F5D6D4C1C9C8FA5E2F6F19A23]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Sheet 1' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Blindness Type' />
+        <param name='target' value='Sheet 1' />
+      </command>
+    </action>
+    <action caption='Highlight 2 (generated)' name='[Action2_8CFE62E6DCDB4CBA9EDDAA6DD263C41B]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Sheet 2' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Assistive Technology Used' />
+        <param name='target' value='Sheet 2' />
+      </command>
+    </action>
+    <action caption='Highlight 3 (generated)' name='[Action3_24C10F92C326466685412D2656C29DD8]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Blindness Type,Assistive Technology Used' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Education Access and Gender vs Blindndess Type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='braille_blind_persons_1000_dataset' name='federated.1anpuds1pr4k9t17x431g1n9zn23' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1anpuds1pr4k9t17x431g1n9zn23'>
+            <column caption='Access to Educational Resources' datatype='string' name='[Access_to_Educational_Resources]' role='dimension' type='nominal' />
+            <column caption='Blindness Type' datatype='string' name='[Blindness_Type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column-instance column='[Access_to_Educational_Resources]' derivation='Count' name='[cnt:Access_to_Educational_Resources:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Blindness_Type]' derivation='None' name='[none:Blindness_Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Access_to_Educational_Resources:qk]' field-type='quantitative' max='140' min='109' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Gender:nk]' value='80' />
+            <format attr='font-size' data-class='subtotal' value='10' />
+            <format attr='color' data-class='subtotal' value='#333333' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' scope='rows' value='0' />
+            <format attr='border-style' scope='rows' value='none' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Gender:nk]' value='100' />
+            <format attr='font-size' data-class='total' value='10' />
+            <format attr='font-weight' data-class='total' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Gender:nk]' value='bold' />
+            <format attr='vertical-align' data-class='total' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Gender:nk]' value='auto' />
+            <format attr='background-color' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Gender:nk]' value='#ffffff' />
+            <format attr='font-weight' data-class='subtotal' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Gender:nk]' value='normal' />
+            <format attr='font-style' data-class='subtotal' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Gender:nk]' value='normal' />
+            <format attr='height-header' value='41' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-size' value='10' />
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+          <style-rule element='field-labels-decoration'>
+            <format attr='font-size' value='10' />
+          </style-rule>
+          <style-rule element='field-labels-spanner'>
+            <format attr='font-size' scope='rows' value='10' />
+            <format attr='font-size' scope='cols' value='10' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Gender:nk]' value='auto' />
+            <format attr='wrap' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Gender:nk]' value='auto' />
+            <format attr='vertical-align' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Gender:nk]' value='center' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='10' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='div-level' scope='cols' value='0' />
+          </style-rule>
+          <style-rule element='tooltip'>
+            <format attr='font-style' value='normal' />
+            <format attr='font-weight' value='normal' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Blindness_Type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='735' />
+                <format attr='maxwidth' value='735' />
+                <format attr='minheight' value='320' />
+                <format attr='maxheight' value='320' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Gender:nk]</rows>
+        <cols>[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Access_to_Educational_Resources:qk]</cols>
+      </table>
+      <simple-id uuid='{65046ACB-F823-49E0-A7C0-5E9836068C24}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Occupation and Education Access vs Assistive technology</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='braille_blind_persons_1000_dataset' name='federated.1anpuds1pr4k9t17x431g1n9zn23' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1anpuds1pr4k9t17x431g1n9zn23'>
+            <column caption='Access to Educational Resources' datatype='string' name='[Access_to_Educational_Resources]' role='dimension' type='nominal' />
+            <column caption='Assistive Technology Used' datatype='string' name='[Assistive_Technology_Used]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Occupation]' role='dimension' type='nominal' />
+            <column-instance column='[Access_to_Educational_Resources]' derivation='Count' name='[cnt:Access_to_Educational_Resources:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Assistive_Technology_Used]' derivation='None' name='[none:Assistive_Technology_Used:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Occupation]' derivation='None' name='[none:Occupation:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Assistive_Technology_Used:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Occupation:nk]</rows>
+        <cols>[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Access_to_Educational_Resources:qk]</cols>
+      </table>
+      <simple-id uuid='{0EA2A50A-8704-424C-BEA3-3BC02FD8BCD6}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Countries vs braille learning resources</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='braille_blind_persons_1000_dataset' name='federated.1anpuds1pr4k9t17x431g1n9zn23' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1anpuds1pr4k9t17x431g1n9zn23'>
+            <column caption='Access to Educational Resources' datatype='string' name='[Access_to_Educational_Resources]' role='dimension' type='nominal' />
+            <column caption='Braille Learning Resources' datatype='string' name='[Braille_Learning_Resources]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Access_to_Educational_Resources]' derivation='Count' name='[cnt:Access_to_Educational_Resources:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Braille_Learning_Resources]' derivation='None' name='[none:Braille_Learning_Resources:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Country:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Access_to_Educational_Resources:qk]</rows>
+        <cols>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Braille_Learning_Resources:nk]</cols>
+      </table>
+      <simple-id uuid='{69FCBF41-81B1-4F4D-8978-5BDDD6A14BCE}' />
+    </worksheet>
+    <worksheet name='Sheet 3 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Popularity of methods of learning</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='braille_blind_persons_1000_dataset' name='federated.1anpuds1pr4k9t17x431g1n9zn23' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1anpuds1pr4k9t17x431g1n9zn23'>
+            <column caption='Access to Educational Resources' datatype='string' name='[Access_to_Educational_Resources]' role='dimension' type='nominal' />
+            <column caption='Braille Learning Resources' datatype='string' name='[Braille_Learning_Resources]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Access_to_Educational_Resources]' derivation='Count' name='[cnt:Access_to_Educational_Resources:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Braille_Learning_Resources]' derivation='None' name='[none:Braille_Learning_Resources:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Access_to_Educational_Resources:qk]' palette='gold_purple_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Access_to_Educational_Resources:qk]' />
+              <lod column='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Country:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Access_to_Educational_Resources:qk]</rows>
+        <cols>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Braille_Learning_Resources:nk]</cols>
+      </table>
+      <simple-id uuid='{47131820-F49D-4DFC-B1DF-8592E84F0716}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Size of trachoma cases vs number of doctors</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Combined_Dataset' name='federated.1asun9f1e7azhq1bd24kk1mx2mng' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1asun9f1e7azhq1bd24kk1mx2mng'>
+            <column datatype='string' name='[Continent]' role='dimension' type='nominal' />
+            <column caption='Max Doctors per Thousand People' datatype='real' name='[Max_Doctors_per_Thousand_People]' role='measure' type='quantitative' />
+            <column caption='Max Trichoma Cases' datatype='real' name='[Max_Trichoma_Cases]' role='measure' type='quantitative' />
+            <column-instance column='[Continent]' derivation='None' name='[none:Continent:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Max_Doctors_per_Thousand_People]' derivation='Sum' name='[sum:Max_Doctors_per_Thousand_People:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Max_Trichoma_Cases]' derivation='Sum' name='[sum:Max_Trichoma_Cases:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1asun9f1e7azhq1bd24kk1mx2mng].[sum:Max_Doctors_per_Thousand_People:qk]' reverse='true' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#ad9024</color>
+                <color>#b49629</color>
+                <color>#bb9d32</color>
+                <color>#c1a33b</color>
+                <color>#c8ab43</color>
+                <color>#cfb250</color>
+                <color>#d4b95e</color>
+                <color>#dbc06c</color>
+                <color>#dfc689</color>
+                <color>#e3d8cf</color>
+                <color>#cdbdd5</color>
+                <color>#c2a3d2</color>
+                <color>#b789ce</color>
+                <color>#ad70cb</color>
+                <color>#a258c7</color>
+                <color>#9841c4</color>
+                <color>#8e2ac0</color>
+                <color>#8515bd</color>
+                <color>#7c00ba</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1asun9f1e7azhq1bd24kk1mx2mng].[sum:Max_Doctors_per_Thousand_People:qk]' />
+              <size column='[federated.1asun9f1e7azhq1bd24kk1mx2mng].[sum:Max_Trichoma_Cases:qk]' />
+              <text column='[federated.1asun9f1e7azhq1bd24kk1mx2mng].[none:Continent:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{BAC8CBC5-C400-405B-99FC-A915C7C54085}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='braille_blind_persons_1000_dataset' name='federated.1anpuds1pr4k9t17x431g1n9zn23' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1anpuds1pr4k9t17x431g1n9zn23'>
+            <column caption='Access to Educational Resources' datatype='string' name='[Access_to_Educational_Resources]' role='dimension' type='nominal' />
+            <column caption='Assistive Technology Used' datatype='string' name='[Assistive_Technology_Used]' role='dimension' type='nominal' />
+            <column-instance column='[Access_to_Educational_Resources]' derivation='Count' name='[cnt:Access_to_Educational_Resources:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Assistive_Technology_Used]' derivation='None' name='[none:Assistive_Technology_Used:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Access_to_Educational_Resources]' derivation='Count' name='[pcto:cnt:Access_to_Educational_Resources:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Access_to_Educational_Resources:qk]' reverse='true' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#ad9024</color>
+                <color>#b49629</color>
+                <color>#bb9d32</color>
+                <color>#c1a33b</color>
+                <color>#c8ab43</color>
+                <color>#cfb250</color>
+                <color>#d4b95e</color>
+                <color>#dbc06c</color>
+                <color>#dfc689</color>
+                <color>#e3d8cf</color>
+                <color>#cdc4d4</color>
+                <color>#c2b0cf</color>
+                <color>#b79cca</color>
+                <color>#ac8ac5</color>
+                <color>#a278c0</color>
+                <color>#9867bb</color>
+                <color>#8e57b6</color>
+                <color>#8547b1</color>
+                <color>#7c39ac</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='size-bar' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Access_to_Educational_Resources:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[pcto:cnt:Access_to_Educational_Resources:qk]' reverse='true' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#ad9024</color>
+                <color>#b49629</color>
+                <color>#bb9d32</color>
+                <color>#c1a33b</color>
+                <color>#c8ab43</color>
+                <color>#cfb250</color>
+                <color>#d4b95e</color>
+                <color>#dbc06c</color>
+                <color>#dfc689</color>
+                <color>#e3d8cf</color>
+                <color>#cdc4d4</color>
+                <color>#c2b0cf</color>
+                <color>#b79cca</color>
+                <color>#ac8ac5</color>
+                <color>#a278c0</color>
+                <color>#9867bb</color>
+                <color>#8e57b6</color>
+                <color>#8547b1</color>
+                <color>#7c39ac</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='size-bar' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[pcto:cnt:Access_to_Educational_Resources:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Assistive_Technology_Used:nk]' />
+              <size column='[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Access_to_Educational_Resources:qk]' />
+              <text column='[federated.1anpuds1pr4k9t17x431g1n9zn23].[pcto:cnt:Access_to_Educational_Resources:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{1EBF35FB-5972-4037-AE91-BAEB5AF40D28}' />
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Blindness Type vs Gender</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='braille_blind_persons_1000_dataset' name='federated.1anpuds1pr4k9t17x431g1n9zn23' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1anpuds1pr4k9t17x431g1n9zn23'>
+            <column caption='Access to Educational Resources' datatype='string' name='[Access_to_Educational_Resources]' role='dimension' type='nominal' />
+            <column caption='Blindness Type' datatype='string' name='[Blindness_Type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column-instance column='[Gender]' derivation='Count' name='[cnt:Gender:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Access_to_Educational_Resources]' derivation='None' name='[none:Access_to_Educational_Resources:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Blindness_Type]' derivation='None' name='[none:Blindness_Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Access_to_Educational_Resources:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Yes&quot;</bucket>
+              <bucket>&quot;No&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='329' />
+            <format attr='height' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Gender:nk]' value='107' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Gender:nk]' value='68' />
+            <format attr='width' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Blindness_Type:nk]' value='116' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Gender:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Access_to_Educational_Resources:nk]' />
+              <size column='[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Gender:qk]' />
+              <text column='[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Gender:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Blindness_Type:nk] / [federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Gender:nk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{FD3F9184-20DD-44B4-988A-E0DA6CE89750}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='5900' maxwidth='1700' minheight='5900' minwidth='1700' sizing-mode='fixed' />
+      <zones>
+        <zone h='8085' id='11' name='Sheet 1' w='57235' x='41176' y='4085' />
+        <zone h='1458' id='12' name='Sheet 1' pane-specification-id='0' param='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Blindness_Type:nk]' type-v2='color' w='9294' x='82706' y='5169' />
+        <zone forceUpdate='true' h='5983' id='39' type-v2='text' w='31412' x='2235' y='6102'>
+          <formatted-text>
+            <run fontsize='10'>This infographic will be laid out as follows: [Text box on the left will contain information or some form of explination for the vizualisation(s) on the right, and it be accompanied by a map or some form of visualization(s)].</run>
+            <run>Æ&#10;&#10;</run>
+            <run fontsize='10'>For example: Here we can see a sum people, and here we look at:  how many people aquired their blindness. In the plot we can see that aside from males the rest of the dataset had aquired their blndness predominantly.</run>
+            <run>Æ&#10;&#10;&#10;</run>
+            <run fontsize='10'>Below, we can see more specific number of people who had/hadn&apos;t had access to educational resources. Here we use the first data and break it down into how many people had/hadn&apos;t had access to educational resorces.</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='3000' id='46' type-v2='text' w='28706' x='33471' y='458'>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontsize='20'>Braille, Disease and Doctors</run>
+          </formatted-text>
+        </zone>
+        <zone h='5746' id='47' name='Sheet 8' w='33176' x='58588' y='12593' />
+        <zone h='1390' id='48' name='Sheet 8' pane-specification-id='0' param='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Access_to_Educational_Resources:nk]' type-v2='color' w='8235' x='80588' y='12254' />
+        <zone h='13034' id='51' name='Sheet 3' w='23529' x='66882' y='20017' />
+        <zone h='2678' id='52' name='Sheet 3' pane-specification-id='2' param='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Country:nk]' type-v2='color' w='8235' x='90824' y='20034' />
+        <zone h='13034' id='53' name='Sheet 3 (2)' w='23529' x='37647' y='20017' />
+        <zone h='898' id='54' name='Sheet 3 (2)' pane-specification-id='2' param='[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Access_to_Educational_Resources:qk]' type-v2='color' w='15176' x='50235' y='19102' />
+        <zone forceUpdate='true' h='4356' id='55' type-v2='text' w='30882' x='2412' y='18797'>
+          <formatted-text>
+            <run fontsize='10'>Here we can see the number of people and their prefference of the reseource they prefer to use. The chart on the left shows you that &quot;Online Courses&quot; seems to be the most popular within the dataset and due to the number of yellow cells, simultaneously &quot;Braille tutors&quot; is the most unpopular due to the number of purple cells amongs countries, and on the right, we can  see the countries having a unique colour.</run>
+          </formatted-text>
+        </zone>
+        <zone h='5322' id='56' name='Sheet 2' w='38882' x='42059' y='34610' />
+        <zone h='1695' id='57' name='Sheet 2' pane-specification-id='0' param='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Assistive_Technology_Used:nk]' type-v2='color' w='9824' x='86294' y='34288' />
+        <zone h='3254' id='58' name='Sheet 5' w='13647' x='83941' y='36051' />
+        <zone forceUpdate='true' h='4373' id='59' type-v2='text' w='34588' x='2294' y='33864'>
+          <formatted-text>
+            <run fontsize='10'>Here we can see the different emplyment status of blind people as well as the assistive technology they prefer to use. On the right we see sum of each occupation and percent of that in comparison to each other technology that avalible to use.</run>
+          </formatted-text>
+        </zone>
+        <zone h='9305' id='60' name='Sheet 4' w='47765' x='49529' y='40831' />
+        <zone h='1237' id='61' name='Sheet 4' pane-specification-id='0' param='[federated.1asun9f1e7azhq1bd24kk1mx2mng].[sum:Max_Doctors_per_Thousand_People:qk]' type-v2='color' w='12294' x='84471' y='40661' />
+        <zone forceUpdate='true' h='5644' id='62' type-v2='text' w='36824' x='2176' y='39729'>
+          <formatted-text>
+            <run fontsize='10'>Here we can see the difference in number of trachoma cases vs the number of doctors. Trachoma cases are the size of the block and the colour is the number of doctors. For example: Africa has a lot of trachoma cases yet very little doctors, thus making it big and purple.</run>
+          </formatted-text>
+        </zone>
+        <zone h='6661' id='63' param='horz' type-v2='layout-flow' w='73353' x='25294' y='60136'>
+          <zone h='6661' id='64' param='//wfs-csdm-h.rgu.ac.uk/csdm-H/Students/21/2106398/Year 4/CM4125 - Data Viz/Modified files/Physicians average.png' type-v2='bitmap' w='73353' x='25294' y='60136'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+        </zone>
+        <zone forceUpdate='true' h='5898' id='65' type-v2='text' w='27529' x='1412' y='60407'>
+          <formatted-text>
+            <run fontsize='10'>Here we are going to look at the difference between Trachoma cases and number of physicians on the map. For the very first thing, you will see average numbers, i.e. amongs all of the largest possible number of cases per contry, take an average of it. In other words here is an example if 2 contries were in the same region: </run>
+            <run>Æ&#10;&#10;</run>
+            <run fontsize='10'>Contry &quot;A&quot; records: [126, 9, 6812]</run>
+            <run>Æ&#10;</run>
+            <run fontsize='10'>Contry &quot;B&quot; records: [0, 5, 124, 9521, 123140]</run>
+            <run>Æ&#10;</run>
+            <run fontsize='10'>Contry &quot;A+&quot; best records: [6812, 123140]</run>
+            <run>Æ&#10;</run>
+            <run fontsize='10'>Average of thatis : 64,976. </run>
+            <run>Æ&#10;</run>
+            <run fontsize='10'>Continent &quot;X&quot; will have its average set to 65976</run>
+            <run>Æ&#10;&#10;&#10;</run>
+            <run fontsize='10'>As we can see an average number of doctors in africa is very low, which would suggest that if something goes wrong, there will be a lot of trachoma cases. Meanwhile, in Europe the number of doctors is arround 4 per 1000 people, suggesting that things shouldn&apos;t be bad in terms of tachoma.</run>
+          </formatted-text>
+        </zone>
+        <zone h='6661' id='70' param='horz' type-v2='layout-flow' w='73353' x='25294' y='74831'>
+          <zone h='6661' id='71' param='//wfs-csdm-h.rgu.ac.uk/csdm-H/Students/21/2106398/Year 4/CM4125 - Data Viz/Modified files/Trachoma average.png' type-v2='bitmap' w='73353' x='25294' y='74831'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+        </zone>
+        <zone friendly-name='Horizontal Container' h='6661' id='73' param='horz' type-v2='layout-flow' w='73353' x='25294' y='67051'>
+          <zone h='6661' id='72' param='//wfs-csdm-h.rgu.ac.uk/csdm-H/Students/21/2106398/Year 4/CM4125 - Data Viz/Modified files/Physicians maximum.png' type-v2='bitmap' w='73353' x='25294' y='67051'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+        </zone>
+        <zone friendly-name='Horizontal Container' h='6661' id='75' param='horz' type-v2='layout-flow' w='73353' x='25294' y='81763'>
+          <zone h='6661' id='74' param='//wfs-csdm-h.rgu.ac.uk/csdm-H/Students/21/2106398/Year 4/CM4125 - Data Viz/Modified files/Trachoma maximum.png' type-v2='bitmap' w='73353' x='25294' y='81763'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+        </zone>
+        <zone h='7169' id='76' param='horz' type-v2='layout-flow' w='73353' x='25294' y='51831'>
+          <zone h='7169' id='77' is-centered='0' param='//wfs-csdm-h.rgu.ac.uk/csdm-H/Students/21/2106398/Year 4/CM4125 - Data Viz/Modified files/Different continents.png' type-v2='bitmap' w='73353' x='25294' y='51831'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+        </zone>
+        <zone forceUpdate='true' h='3576' id='78' type-v2='text' w='24235' x='2529' y='53356'>
+          <formatted-text>
+            <run fontsize='10'>Lastly, here is a map of all unique continents which will be used next to display number of physicians in both maximum and average numbers after which trachoma will be visualized as well.</run>
+          </formatted-text>
+        </zone>
+        <zone h='3203' id='79' type-v2='text' w='23706' x='3529' y='75661'>
+          <formatted-text>
+            <run fontsize='10'>Here we can see trachoma and as predicted above Africa has a LOT of trachoma cases, which when compared to America, shows a clear difference.</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='4350' minheight='4350' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='87' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='99728' id='86' param='vert' type-v2='layout-flow' w='99058' x='471' y='136'>
+                <zone forceUpdate='true' h='3000' id='46' type-v2='text' w='28706' x='33471' y='458'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontsize='20'>Braille, Disease and Doctors</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='8085' id='11' is-fixed='true' name='Sheet 1' w='57235' x='41176' y='4085'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='1458' id='12' name='Sheet 1' pane-specification-id='0' param='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Blindness_Type:nk]' type-v2='color' w='9294' x='82706' y='5169'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='5983' id='39' type-v2='text' w='31412' x='2235' y='6102'>
+                  <formatted-text>
+                    <run fontsize='10'>This infographic will be laid out as follows: [Text box on the left will contain information or some form of explination for the vizualisation(s) on the right, and it be accompanied by a map or some form of visualization(s)].</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontsize='10'>For example: Here we can see a sum people, and here we look at:  how many people aquired their blindness. In the plot we can see that aside from males the rest of the dataset had aquired their blndness predominantly.</run>
+                    <run>Æ&#10;&#10;&#10;</run>
+                    <run fontsize='10'>Below, we can see more specific number of people who had/hadn&apos;t had access to educational resources. Here we use the first data and break it down into how many people had/hadn&apos;t had access to educational resorces.</run>
+                    <run>Æ&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='5746' id='47' is-fixed='true' name='Sheet 8' w='33176' x='58588' y='12593'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='1390' id='48' name='Sheet 8' pane-specification-id='0' param='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Access_to_Educational_Resources:nk]' type-v2='color' w='8235' x='80588' y='12254'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='4356' id='55' type-v2='text' w='30882' x='2412' y='18797'>
+                  <formatted-text>
+                    <run fontsize='10'>Here we can see the number of people and their prefference of the reseource they prefer to use. The chart on the left shows you that &quot;Online Courses&quot; seems to be the most popular within the dataset and due to the number of yellow cells, simultaneously &quot;Braille tutors&quot; is the most unpopular due to the number of purple cells amongs countries, and on the right, we can  see the countries having a unique colour.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='13034' id='53' is-fixed='true' name='Sheet 3 (2)' w='23529' x='37647' y='20017'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='898' id='54' name='Sheet 3 (2)' pane-specification-id='2' param='[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Access_to_Educational_Resources:qk]' type-v2='color' w='15176' x='50235' y='19102'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='13034' id='51' is-fixed='true' name='Sheet 3' w='23529' x='66882' y='20017'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='2678' id='52' name='Sheet 3' pane-specification-id='2' param='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Country:nk]' type-v2='color' w='8235' x='90824' y='20034'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='4373' id='59' type-v2='text' w='34588' x='2294' y='33864'>
+                  <formatted-text>
+                    <run fontsize='10'>Here we can see the different emplyment status of blind people as well as the assistive technology they prefer to use. On the right we see sum of each occupation and percent of that in comparison to each other technology that avalible to use.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='5322' id='56' is-fixed='true' name='Sheet 2' w='38882' x='42059' y='34610'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='1695' id='57' name='Sheet 2' pane-specification-id='0' param='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Assistive_Technology_Used:nk]' type-v2='color' w='9824' x='86294' y='34288'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='192' h='3254' id='58' is-fixed='true' name='Sheet 5' w='13647' x='83941' y='36051'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='5644' id='62' type-v2='text' w='36824' x='2176' y='39729'>
+                  <formatted-text>
+                    <run fontsize='10'>Here we can see the difference in number of trachoma cases vs the number of doctors. Trachoma cases are the size of the block and the colour is the number of doctors. For example: Africa has a lot of trachoma cases yet very little doctors, thus making it big and purple.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='9305' id='60' is-fixed='true' name='Sheet 4' w='47765' x='49529' y='40831'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='1237' id='61' name='Sheet 4' pane-specification-id='0' param='[federated.1asun9f1e7azhq1bd24kk1mx2mng].[sum:Max_Doctors_per_Thousand_People:qk]' type-v2='color' w='12294' x='84471' y='40661'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='7169' id='77' is-centered='0' is-fixed='true' param='//wfs-csdm-h.rgu.ac.uk/csdm-H/Students/21/2106398/Year 4/CM4125 - Data Viz/Modified files/Different continents.png' type-v2='bitmap' w='73353' x='25294' y='51831'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3576' id='78' type-v2='text' w='24235' x='2529' y='53356'>
+                  <formatted-text>
+                    <run fontsize='10'>Lastly, here is a map of all unique continents which will be used next to display number of physicians in both maximum and average numbers after which trachoma will be visualized as well.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='6661' id='64' is-fixed='true' param='//wfs-csdm-h.rgu.ac.uk/csdm-H/Students/21/2106398/Year 4/CM4125 - Data Viz/Modified files/Physicians average.png' type-v2='bitmap' w='73353' x='25294' y='60136'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='5898' id='65' type-v2='text' w='27529' x='1412' y='60407'>
+                  <formatted-text>
+                    <run fontsize='10'>Here we are going to look at the difference between Trachoma cases and number of physicians on the map. For the very first thing, you will see average numbers, i.e. amongs all of the largest possible number of cases per contry, take an average of it. In other words here is an example if 2 contries were in the same region: </run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontsize='10'>Contry &quot;A&quot; records: [126, 9, 6812]</run>
+                    <run>Æ&#10;</run>
+                    <run fontsize='10'>Contry &quot;B&quot; records: [0, 5, 124, 9521, 123140]</run>
+                    <run>Æ&#10;</run>
+                    <run fontsize='10'>Contry &quot;A+&quot; best records: [6812, 123140]</run>
+                    <run>Æ&#10;</run>
+                    <run fontsize='10'>Average of thatis : 64,976. </run>
+                    <run>Æ&#10;</run>
+                    <run fontsize='10'>Continent &quot;X&quot; will have its average set to 65976</run>
+                    <run>Æ&#10;&#10;&#10;</run>
+                    <run fontsize='10'>As we can see an average number of doctors in africa is very low, which would suggest that if something goes wrong, there will be a lot of trachoma cases. Meanwhile, in Europe the number of doctors is arround 4 per 1000 people, suggesting that things shouldn&apos;t be bad in terms of tachoma.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='6661' id='72' is-fixed='true' param='//wfs-csdm-h.rgu.ac.uk/csdm-H/Students/21/2106398/Year 4/CM4125 - Data Viz/Modified files/Physicians maximum.png' type-v2='bitmap' w='73353' x='25294' y='67051'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='6661' id='71' is-fixed='true' param='//wfs-csdm-h.rgu.ac.uk/csdm-H/Students/21/2106398/Year 4/CM4125 - Data Viz/Modified files/Trachoma average.png' type-v2='bitmap' w='73353' x='25294' y='74831'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3203' id='79' type-v2='text' w='23706' x='3529' y='75661'>
+                  <formatted-text>
+                    <run fontsize='10'>Here we can see trachoma and as predicted above Africa has a LOT of trachoma cases, which when compared to America, shows a clear difference.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='6661' id='74' is-fixed='true' param='//wfs-csdm-h.rgu.ac.uk/csdm-H/Students/21/2106398/Year 4/CM4125 - Data Viz/Modified files/Trachoma maximum.png' type-v2='bitmap' w='73353' x='25294' y='81763'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{E8CA3005-5CE1-4100-83C2-71EDCA87A746}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='93'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='300'>
+            <card pane-specification-id='0' param='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Blindness_Type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Access_to_Educational_Resources:qk]</field>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Access_to_Educational_Resources:nk]</field>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Country:nk]</field>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Gender:nk]</field>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[pcdf:cnt:Gender:ok]</field>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[pcto:cnt:Gender:ok:2]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0E9B4BA6-03E5-4E8D-A7F8-31AA31E31230}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='192'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Assistive_Technology_Used:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Access_to_Educational_Resources:nk]</field>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Occupation:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8D08CBF2-39A0-4C2E-84C7-8D419FD877F1}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Country:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Access_to_Educational_Resources:nk]</field>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Braille_Learning_Resources:nk]</field>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Country:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6629EBFF-58F6-4562-BE38-AC7B774FEC32}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1asun9f1e7azhq1bd24kk1mx2mng].[sum:Max_Doctors_per_Thousand_People:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1asun9f1e7azhq1bd24kk1mx2mng].[none:Continent:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E28ED022-0A82-4E36-9D91-382A42FF1688}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Assistive_Technology_Used:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Access_to_Educational_Resources:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Access_to_Educational_Resources:nk]</field>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Assistive_Technology_Used:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FC6D161C-2C0E-4F74-8C82-ABEA879648CA}' />
+    </window>
+    <window class='worksheet' name='Sheet 3 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Access_to_Educational_Resources:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Access_to_Educational_Resources:qk]</field>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Braille_Learning_Resources:nk]</field>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Country:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{142ADE29-C344-4B23-826B-EB2E1E9134F1}' />
+    </window>
+    <window class='worksheet' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Access_to_Educational_Resources:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1anpuds1pr4k9t17x431g1n9zn23].[cnt:Gender:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[Clipboard_20241119T150716].[cnt:Count of Access to Educational Resources:ok]</field>
+            <field>[Clipboard_20241119T150716].[none:Blindness Type:nk]</field>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Access_to_Educational_Resources:nk]</field>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Assistive_Technology_Used:nk]</field>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Blindness_Type:nk]</field>
+            <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Gender:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C6B5FB7C-3446-4F42-AB54-B3181AE51A25}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1' />
+        <viewpoint name='Sheet 2'>
+          <highlight field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Assistive_Technology_Used:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Country:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Sheet 3 (2)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 4' />
+        <viewpoint name='Sheet 5' />
+        <viewpoint name='Sheet 8'>
+          <highlight field='[federated.1anpuds1pr4k9t17x431g1n9zn23].[none:Access_to_Educational_Resources:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{4BE37409-BE2D-4A39-91C0-81D19A4240E9}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      WGgiAMJC+/8BRqjI5pr+euwAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAW9klEQVR4nO3dWXBcV37f8e/t2/uORqPRDYALwAVcwVUbJVGyZkbjqcROJU7y4HJcKSd+
+      SKWSSiWpJI/zkMprXvKQqqRSKctjS55SxZ7xeHbZI1LcCS5YSBAbARD7DvR+l5MHgKJECmSD
+      aIAk7v/zAhJ9779Po+/v7vccTSmlEMKhXC+6AUK8SBIA4WgSAOFoEgDhaBIA4WgSAOFoEgDh
+      aBIA4WgSAOFoEgDhaBIA4WgSAOFoEgDhaBIA4WgSAOFoEgDhaBIA4WgSAOFoEgDhaBIA4WgS
+      AOFo2yIApmlWNJ1SquJp18MwjKrX3Ky6m1HTsiwsy6p6XdM0qXanJY8vA9siAOv5I9m2/ULf
+      /0XXfZV6wdms7+qrf4NtEQAhnpcEQDiaBEA4mgRAOJoEQDiaBEA4mgRAOJoEQDiaBEA4mgRA
+      OJoEQDiaBEA4mgRAOJoEQDjamgGwjSI9nTdpb29ncrG4vqrFBTr6Hmy0bUJsOvdaL1iFBaYL
+      cKB5J6GAm9kHvdx5sMyxE8cozg4zMjxOoK6R/NQodXuPkg4a3LjRSSizjyMZN8v5Itglbl29
+      hl7XwpGWzFZ+LiEq8tRdoKnhXtrb25nLLdFxb4bWpijd9+7T39tDQ2sbwz2dtLQ282BkDNvW
+      2XvoKOWRHuZWHw7q77xFsGEv+vQ9HmSr/3CDEBu15hYAYOfBU5w+1IKypvj8/jCaXiJS34IW
+      ihIPB4nUJqmJBMFeYGyoh6GZPHOjY6TbDgOQW55ndCJL0O8hqSzkkEO8bNZcIjXdQzjoX50q
+      yZHDKcplE5/PSygcxaVBNBIBTScaDuDz+zANm1RjI163h2jIz94Dh/BqJjZuPG5Z+MXLR1Ov
+      0kOiazAMA4/H88zplFIYhoHX663q+5fL5arX3Ky6m1Hz4QPxuq5XtW65XMbj8aBpWtVq2raN
+      ZVlfLi+yWhaOJgEQjiYBEI4mARCOJgEQjiYBEI4mARCOJgEQjiYBEI4mARCOJgEQjiYBEI4m
+      ARCOJgEQjiYBEI4mARCOJgEQjiYBEI4mARCOJgEQjiYBEI4mARCOJgEQjvbUnuHE2pSyUMY8
+      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
+      uZD1fQAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='159' name='Sheet 2' width='192'>
+      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
+      D7IJnuDC6PGPAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+      gAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3 (2)' width='192'>
+      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
+      /h+GQwYNzAuCRgAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 4' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAC3UlEQVR4nO3XO4pUURhG0b+KQlG6FRR8ZaKZic7AITk6QYwcgNCRoCIIgg2iNNriC+Sa
+      KlRoVwV7rezc6Es259zVsizLQNR63wNgnwRA2ubvw+NHL+f46HRfW2Dn/gng+Oh03j472dcW
+      2DlPINI22z7euH84syxz++GVefX442wurOfzux9zcO3cnL+8mffPv8zye9dT4f/begNcvXNh
+      rty9OG+efpqD6+dmtV7NzQeX5vT451y9e3Gu3TvY9U44E1tvgNdPPs2sZpbfy5y8/T6zWs16
+      PXN46/x8ePF1Tt583/VOOBNbA/j1dfv75ufLb2c6BnbNTzBpAiBNAKQJgDQBkCYA0gRAmgBI
+      EwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQB
+      kCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBp
+      AiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA
+      0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBN
+      AKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRA
+      mgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJ
+      gDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBI
+      EwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQB
+      kCYA0gRAmgBIEwBpAiBNAKQJgDQBkLb5+3Dz/uG+dsBe/AEqMDdMQSlqQgAAAABJRU5ErkJg
+      gg==
+    </thumbnail>
+    <thumbnail height='164' name='Sheet 5' width='164'>
+      iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAASd0lEQVR4nO2dfUyTV/vHv5TyVnlph4AlKJIJ0+hgPxkx6OJrjMbpMyfBLZrpgvsZ96bT
+      bY8GyByMZGBYmXvFly17syMYBj4ouIQNdQrZhEXZwyBAJggUGa/eHYVS2vP7g1+rFZWCrT29
+      uT4J0fbcvTh3z4frOufcN8WNMcZAEJwgcXYHCOJ2SEiCK0hIgitISIIrSEiCK0hIgitISIIr
+      SEiCK0hIgitISIIrSEiCK0hIgitISIIrSEiCK0hIgitISIIrSEiCK0hIgitISIIrSEiCK0hI
+      gitISIIrSEiCK0hIgitISIIrSEiCK0hIgitISIIrSEiCK0hIgitISIIrSEiCK0hIgitISIIr
+      SEiCK0hIgitISIIrSEiCK0hIgitISIIrSEiCK0hIgitISIIrSEiCK2wW8sqVK1i0aBGkUilk
+      MhlSU1Oh1+utjmlubkZUVBQ2b948qTharRZbt26FVCpFcHAwCgsLLa/T6/VISUmBl5cX/P39
+      oVKpYDKZAADFxcVQKBRQKBQoLi62vKayshJpaWmW46YK9hqrkydPws3NzfIVEBCAyspKAI4b
+      K5uEbG9vR2pqKjIzM6HX69HS0oK6ujqUlZVZjjGZTMjNzcXKlSvh7+8/qTg5OTkIDQ2FIAgo
+      LS1FdnY2GhsbAQAFBQVoampCZ2cnampqcPr0aVy4cAGCIECtVqOiogIVFRVQq9UQBAF6vR6F
+      hYXYuXMnJJKpUwjsNVYA0NTUhIKCAjDGwBjDzZs3ER8fD8BxYyW15SSVSiVOnToFd3d3AEBQ
+      UBASEhKg0+ksx1y6dAm9vb3YsmULvvvuuwnH6enpQU1NDT766CPIZDLExsZi48aNOH/+PGbP
+      no2zZ89i//79kMvlkMvl2LNnD0pKSjBnzhwolUrMmzfP8j0EQUBtbS0WLlwIpVJpyymKBnuN
+      FQB0d3dj+fLlY5535FjZJOSdGaatrQ0lJSXIyMgAAAwMDODYsWNITk5GX1/fpOIMDg5i+vTp
+      CAoKsrTHx8fj0qVLGBwchEwmQ3h4uKUtJiYGZWVl8PX1RUdHB+rq6gAAHR0dYIyhuroab775
+      pi2nN2m0Gi0EjQBthxYAoKnSAIDlOa1Gix3HcuHmNQtu3rPg5jULAEYfe82CJOApu/fJXmNl
+      MBgwMDCAmTNnjmlz5FjZJKQZk8mEM2fO4Msvv8THH3+MsLAwAMD333+PpUuXYu7cuZY5xkTj
+      NDU1wdPTEx4eHpbj3N3d0djYiJGREUgkEqs2qVSKzs5OSCQSJCUlYdWqVTAYDFCr1aiqqsK6
+      deuQnZ2N9PR0PP744ygoKLB6kyaLVqNFe3U76v9TD021Ztzjmf46mP46INy9XeL/FCQBT0E6
+      88AD9+12HnSshoaGUFtbaxEyNDQUycnJePnllzE0NOSwsbJZSKPRiEOHDmFkZAR5eXnw8vIC
+      AFy7dg2XL1+GSqV6oDje3t4YHh6GwWCwnIzRaERkZCSkUilMJhMMBoMlzsjICEJCQuDr64vV
+      q1dDoxmVo7m5GaWlpYiIiEBDQwP6+vrwww8/4Pjx43jvvfdsPV0rtBot6ovr0V7VbpOEE8Ek
+      XIRJuIiR1ky4ec2Ce/AWi6STxR5j5efnh19++WW0jyYTGhoasHfvXjz66KNYsGCBw8bKZiFz
+      c3MRFhaGrVu3WpUFtVqNo0eP4ujRo1bH//jjj6isrLT8ZI4Xx8fHB93d3ejq6kJoaCiA0ZVX
+      YGAgfHx8oNPp0NLSgsDAQADA1atX4ePjYxXDZDIhLy8Pzz33HFpaWjB//nzIZDIsX74cv//+
+      u62naqG+uB6Xj1yGVqOd8GsnA9Nfx0hrJoDRsi6deQDuwVsmHMdeY2VGIpFg7ty5SEpKQnV1
+      NeLi4hw2VjYtP82rpU2bNo2Zo6SkpFhWYYwxVFRUYMeOHWhtbR1zgveLExgYiOjoaOTk5ECn
+      06G6uhpFRUVYtmwZPDw8sHbtWmRlZaG/vx/Nzc04fPgw1q1bZxWjvLwcCoUCEREReOSRR1Bb
+      WwudTodz585h2rRptpwqgNGMWPS/Rfj54M8PTcY7YfrrMDS9An11NEw3L9r8OnuN1W+//YZ9
+      +/ZZslljYyM+//xzLFmyxKFjZZOQLS0tyM/Ph6+vr9W+1Lvvvjvua0+ePGnZ6xovzt69e6HR
+      aODv748NGzYgJSUFkZGRAICEhATMmTMHISEhiI6OxvPPP4+lS5davk9fXx+KioqwadMmAMCC
+      BQsQFRUFhUKBDz/8EC+99NK4fdVqtPj54M/4dv23di/Nk4Xpr2O4dj2G/7t+dC46DvYaq9jY
+      WCxYsABxcXFwc3PDkiVLsH37dst77qixcmOMsYm+SWLDPEe8fOSy3WMnfZJs13jSmQfsvgDi
+      iamzY3wPtBotinYWOURGRzDSmjnhMu5KTGkhLx+5jG/Xf+u0eeJkMZdx499qZ3fF7kxJIbUa
+      LS4fuewyWfFeGJpegaHpFWd3w65MaGNcDJhlrC+ud3ZX7ILxbzXY0HV4Ljjt7K7YhSmVIc3z
+      RbHIaMYkXBTNvHLKCGmW0dXmi7Zi3rd0daaEkFqNFj8d/Em0Mpph+usY/u96Z3fjgZgSQtYX
+      23YjhBgwXxd3VUQvpKM2vHlmpDXTZeeTohbSfClwKjJcu94lpRStkOZFzFTG0PSKTde/eUK0
+      Qj7M28Z45fbb2VwFUQppvlmCGN04d6XSLUohfzr4k7O7wBWulCVFJ6Qjfs3A1TEJF10mS4pO
+      yKm2xWMrrpIlRSUkZcd74ypZUlRCUna8P65wrVs0Qmo1WsqO42D5HXGOEY2QtM1jG7zfZS4a
+      Idur2p3dBZeA93mkKISkcm07JuEi12VbFEK2V1N2nAg8Z0lRCFn/H5o/TgSTQEI6DCrXE4fn
+      hY3LCylo7vE5d8R94bVsu7yQ5g8LJSYGrwsb1xdyit/zOFlISIIrSEgHQRlSXLi8kLSomRxs
+      iM8M6fKf7bPxsSxo/W9lSUEXAADQDgZYnrP+v9zqOHP77ceIiZt9wWOf6w+BfMYQghc4oUPj
+      4PJCor8Nfj63Hvr53HzgkLfLeafgd4p7p+B3O+5OKW72h1g9Fsa03/G4L+S+7cI47ffinVU2
+      HfZQcX0h5WFAf5tdQ94u9YMI3q8PwqHU4vEPdALyGd7O7sJdcfk5JBRj/7APMT4BIV7O7sJd
+      cX0h5Xf/UxaEa+L6QhKTYvYTfC7iXF9IBb8Zsn9ourO74HK4vpBymkNOBlrUOAqOMyTPBISQ
+      kI4hIt7ZPXA55DO8aQ7pUP4n0dk9uCs39UHjH+QEeN3yAcQiJGXJCcFrdgTEIuRCPjNkP6cZ
+      MjxG7uwu3BNxCAnQBrmN8Dx/BMQkJKdZkjdi1th244WzEI+QtB9pEzyXa0BMQi5M5G5xw9sc
+      kvdyDYhJSIDb7R9e+Ne/o5zdhXERl5AcZklecIXsCIhNSABYudfZPbDA080VrpAdATEKGRFP
+      WfIOwmMCXCI7AmIUEuAqS/LAsu3hzu6CzYhTyIh4WuD8PzFrQlwmOwJiFRIAVu5zdg+cfnOF
+      fIY3lm2f5dQ+TBTxCqkIA3bkO7sXTkM+wxv/+ncUtzfi3gvxCgmMlu4pKmXMmmCXKtVmxC0k
+      4NT5pLOu1MSsCXGphcztiF9IAEhQTZmtoPCYADyz3zX2HO/G1BASGC3dIpdSPsMb23Oind2N
+      B2LqCAkAm1QP7b7Jh12u5TO8sU31+EP9no5gagmpCAN2nBRdppTP8MZudZzLrajvxtQSEri1
+      HSSSqznLts/CbnWcs7thN1z/088my8p9ozf1/uD8DfTJIJ/hjZg1wS67mr4XNmfIK1euYNGi
+      RZBKpZDJZEhNTYVerwcAVFZWIiAgAG5ubpavkydPTjiOVqvF1q1bIZVKERwcjMLCQsvr9Ho9
+      UlJS4OXlBX9/f6hUKphMJgBAcXExFAoFFAoFiotvffxdZWUl0tLSLMeNYWGiw/YpHXmnj3nT
+      W2wyAjYK2d7ejtTUVGRmZkKv16OlpQV1dXUoKysDAHR0dODAgQNgjFm+EhPH7v2NFycnJweh
+      oaEQBAGlpaXIzs5GY2MjAKCgoABNTU3o7OxETU0NTp8+jQsXLkAQBKjValRUVKCiogJqtRqC
+      IECv16OwsBA7d+6ERHKf04yIB96sdJkSHrMmBNtUj7vkprct2CSkUqnEqVOnsGLFCri7uyMo
+      KAgJCQnQ6XQAgOvXr2POnDkPFKenpwc1NTXYu3cvZDIZYmNjsXHjRpw/fx4GgwFnz57F/v37
+      IZfLMXv2bOzZswclJSUQBAFKpRLz5s3DvHnzoFQqIQgCzp07h4ULF0KpVI5/goqw0RL+ZiW3
+      C57wmABsU0Xjmf3jXw68XxUymUz4+uuvERwcDHd3d0RHR6O+/u5/mq+rqwsZGRl47LHHxlQ8
+      R1Uzm4SUSCRwd3e3PG5ra0NJSQni4kYn0319fQgLG3875X5xBgcHMX36dAQF3douiY+PR09P
+      DwYHByGTyRAefqtExcTEYHBwEL6+vujo6EBdXR3q6urQ0dEBxhiqq6vx7LPP2nJ6tzAveOwg
+      pr1urBjdzonG9pxom7LieFXozJkz+OKLL3Dp0iUYDAYUFxcjJCRkTBxBEPDqq68iLCwM77zz
+      zph2h1Wzibw5JpMJxcXFeP3115GZmYnZs2cDAJqamrB48WK4ubkhMDAQBw4csPxE2hpnaGgI
+      np6e8PDwsBzn7u6OxsZGjIyMQCKRWLVJpVJ0dnZCIpEgKSkJq1atwtKlS5GUlISqqiqsW7cO
+      2dnZ8PLywpNPPomWlhbbT9Qs5o58p/2+t3yGN57ZH4Xd6rgJlef7VSGDwYC8vDykp6cjMjIS
+      EokE4eHhUCgUY+L4+/sjPz8fL774Ijw9Pa3aHFnNbBbSaDQiKysLV65cQV5enlVGPHHihGXu
+      +Mcff6CjowNHjx6dUBxvb28MDw/DYDBYHRsZGQmpVAqTyWTVNjIygpCQEPj6+mL16tXQaDTo
+      6upCZGQkbty4AQBoaGhAX18f3njjDRw/ftzWU71FRDzwVuWtOaaD5TTfLrZNFY3d6jjErBmb
+      ucbjflWot7cXEokETzzxxAP105HVzGYhc3NzERYWZpkb3IvQ0FDs2rULf/7554Ti+Pj4oLu7
+      G11dXZbnKisrERgYCB8fH+h0Oqssd/XqVfj4+FgtWEwmE/Ly8rB27Vr09/dj/vz5kMlkWL58
+      OQYGBmw91bGY55i3yzlOSbflSo18hrfl2vNudRx2q+OwbHu4XRYsd6tCBoMB3d3d2LRpE7y8
+      vCCVSrFhwwa0tU3sjwY4sprZtA9pnguoVKoxK9b29nakpaVh3759iIqKQk9PDz744AM8/fTT
+      E4oTGBiI6Oho5OTkIC0tDXV1dSgqKsJXX30FDw8PrF27FllZWThy5Aj6+/tx+PDhMXOb8vJy
+      KBQKREREQKvVora2FjqdDufOncO0adNsOdXxMcsJAH1tQH/rrX8tz7VBbvAGWkelCwjxsixE
+      zLIFhDjutwCNRiMOHTqEkZER5OXlWf3gT5s2DSqVClFRUTAajfj000+RkZGBzz777P67Ebdx
+      ezUzizfRagYAzc3NKC0tRUREhKWagdnAr7/+yuRyOQNg9XXw4EFmNBpZSUkJmzt3LpNIJMzP
+      z4+lp6ezoaEhxhhj+fn5LDExcdw4jDEmCALbsmULc3d3Z0qlkp05c8bSh6GhIZacnMw8PT2Z
+      n58fO3LkCDMajZb23t5e9tprr7G///6bMcaY0WhkGRkZzNPTk8XGxrLm5mZbTlUUfPLJJ+yb
+      b76xen8YY0yn07Fdu3ax9vZ2y3Otra0sMTGR3bx5857x8vPzWX5+vuVxd3c3S0hIsIpz6NAh
+      duzYMTY8PMxeeOEFVl1dbWkrKipib7/9tlVMo9HI3n//ffbXX3+x8vJylpWVxRgbnfcRIuLG
+      jRts586d7J9//rlr+7Fjx9iuXbuYIAhMr9czlUrFkpOT7xvzTiEZYywtLY299dZbbGBggFVV
+      VbHFixezhoYGxhhjJ06cYJs3b2Z9fX3s2rVrbMWKFay8vNzq9WVlZSw3N5cxxtjVq1fZtm3b
+      2MDAAAkpNsarQkNDQyw9PZ35+fkxT09PlpCQwHp7exlj1tWstbWVhYWFjYljbndUNXNjjLEH
+      mK4QhF2Zenf7EFxDQhJcQUISXEFCElxBQhJcQUISXEFCElxBQhJcQUISXEFCElxBQhJcQUIS
+      XEFCElxBQhJcQUISXEFCElxBQhJcQUISXEFCElxBQhJcQUISXEFCElxBQhJcQUISXEFCElxB
+      QhJcQUISXEFCElxBQhJcQUISXEFCElxBQhJcQUISXPF/qwnX0BJ3x2IAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 8' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
